@@ -14,6 +14,4 @@ def move(array, user_input, board = "X")
   puts "#{array}"
 end
 
-def update_array_at_with(array, index, value)
-  array[index] = value
-end
+
