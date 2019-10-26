@@ -13,5 +13,3 @@ end
 def move(array, user_input, board = "X")
   puts "#{array}"
 end
-
-
