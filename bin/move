@@ -7,5 +7,5 @@ puts board = [" ", " ", " ", " ", " ", " "," ", " ", " "]
 puts "Where would you like to go?"
 user_input = gets.to_i
 input_to_index(user_input)
-move(board, user_input)
+move(board, user_input, character)
 display_board(board)
